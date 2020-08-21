@@ -1,0 +1,107 @@
+.App {
+    display: flex;
+    justify-content: center;
+  }
+  
+  form {
+    margin-top: 5%;
+  }
+  
+  label {
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 5px;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  input[type='password'],
+  select,
+  textarea {
+    display: block;
+    width: 400px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .radio {
+    margin: 10px 25px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: #467AF3;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /*margin-bottom: 20px;*/
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #346cfc;
+  }
+  
+  button:disabled {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: gray;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /*margin-bottom: 20px;*/
+  }
+  
+  .containerPh {
+    display: flex;
+  }
+  
+  .phNumber {
+    display: flex;
+    width: 315px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    padding: 6px 12px;
+    margin: 0px 5px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: #467AF3;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .error {
+    color: red;
+  }
